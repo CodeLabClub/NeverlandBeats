@@ -27,7 +27,8 @@
 + Scratch Addon 支持更高的 fps（=60）、高清画笔以及舞台大小自定义，视觉效果应该会更好
 
 
-## **依赖**
+## **依赖 ❤️**
+
 
 + **[pyaudio](https://people.csail.mit.edu/hubert/pyaudio/docs/)**
 
@@ -42,4 +43,38 @@
 + **[CodeLab Adapter](https://adapter.codelab.club/get_start/gs_install/)**
 
 + **[numpy](https://numpy.org/)**
+
+
+## **参考 ❤️**
+
+
+**关于傅立叶转换**
+
++ [But what is the Fourier Transform? A visual introduction](https://www.youtube.com/watch?v=spUNpyF58BY)
+
++ [An Interactive Guide To The Fourier Transform](https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/)
+
++ [(Visual) Understanding the Fourier transform](https://web.archive.org/web/20120418231513/http://www.altdevblogaday.com/2011/05/17/understanding-the-fourier-transform/)
+
+**关于音频流**
+
++ [Audio I/O: Buffering, Latency, and Throughput](https://in.mathworks.com/help/audio/gs/audio-io-buffering-latency-and-throughput.html)
+
+    matlab audiotoolbox 系列文档有很清晰的解释
+
+**关于音频的实时分析与频谱绘制**
+
++ [Frequency spectrum using FMOD and UE4](https://www.parallelcube.com/2018/03/10/frequency-spectrum-using-fmod-and-ue4/)
+
+    如何 track the beat，作者写了一系列的文章，虽然用的不同软件，但是作者分享的思路非常重要。P2 中对频段的划分就是依据这篇文章。
+
++ [Recording Stereo Audio on a Raspberry Pi](https://makersportal.com/blog/recording-stereo-audio-on-a-raspberry-pi)
+
+    这个网站的作者分享了多个音频相关的项目，是读过教程中对数据提取与分析流程最完整严谨的。
+
++ [Audio Handling Basics: Process Audio Files In Command-Line or Python](https://hackernoon.com/audio-handling-basics-how-to-process-audio-files-using-python-cli-jo283u3y)
+
++ [Realtime FFT Audio Visualization with Python](https://swharden.com/blog/2013-05-09-realtime-fft-audio-visualization-with-python/)
+
++ [Realtime FFT Audio Visualization with Python](https://blog.yjl.im/2012/11/frequency-spectrum-of-sound-using.html)
 
