@@ -6,7 +6,7 @@
 
 音频流的配置与数据提取依赖 pyaudio 实现，音频数据分析就是将信号从时域经傅立叶转换到频域。P1 与 P2 的区别在于，P2 只是对每次从音频流中提取的数据做 FFT（Fast Fourier transform）分析，然后将 0-22050Hz 的频率按对数关系分为 10 个频段呈现对应的振幅强度，在 Scratch 中类似 bar 图效果；P1 相比 P2 多了时间的维度，做的是 STFT（Short-time Fourier transform） 分析，依赖 madmom 包获取 spectrogram 结果，对应 Scratch 中 12 * 10 的圆点矩阵，每 1 列是一个时间点，12 行数据分别对应 12 个频段的振幅强度。
 
-运行 python 代码前，需要先选择音源的输入设备，是来自电脑内置的麦克风、还是耳机等，当前代码不包含选择输入设备这一项功能，pyaudio 会使用默认的输入设备，而输入设备间的切换是通过 pavucontrol（ubuntu 系统）手动实现的。如果发现没有数据很可能就是音源输入设备的选择问题。
+运行 python 代码前，需要先选择音源的输入设备，是来自电脑内置的麦克风、还是耳机等，当前代码不包含选择输入设备这一项功能（但依赖 pyaudio 其实可以做到），pyaudio 会使用默认的输入设备，而输入设备间的切换是通过 pavucontrol（ubuntu 系统）手动实现的。如果发现没有数据很可能就是音源输入设备的选择问题。因为 madmom 也是依赖 pyaudio，所以 P1、P2 都是如此。
 
 
 ### **P1：Scratch 代码[在此](https://create.codelab.club/projects/9942/)，Python 代码[在此](AA_madmomspectrogram.ipynb)**
