@@ -26,15 +26,9 @@
 
 -->
 
-### **P1 色彩升级**
+**P1 色彩升级**
 
-当数据依赖色彩说话，色彩的选择就很重要。如下图所示，作为第一个 demo，将 colormap 之 [thermal](https://matplotlib.org/cmocean/#thermal) 引入 Scratch，更合理美观地呈现音乐频谱。
-
-python 代码[在此](online_spectrogram_thermal.ipynb)，Scratch 代码[在此](online_spectrogram_thermal.sb3)。
-
-![thermal-colormap](cmap_thermal1.png)
-
-
+![thermal-colormap](cmap_thermal.png)
 
 ### **P2：Python 代码[在此](AA_realtime_audiofft.ipynb)，（自启动）Scratch 代码[在此](https://create.codelab.club/projects/9943/)，（手动启动）Scratch 代码[在此](https://create.codelab.club/projects/10021/)** 
 
@@ -90,10 +84,3 @@ python 代码[在此](online_spectrogram_thermal.ipynb)，Scratch 代码[在此]
 
 + [Realtime FFT Audio Visualization with Python](https://blog.yjl.im/2012/11/frequency-spectrum-of-sound-using.html)
 
-**关于 Colormap**
-
-[Why Should Engineers and Scientists Be Worried About Color?](http://mkweb.bcgsc.ca/brewer/talks/engineers.scientists.color.worry.pdf)
-
-[Beautiful colormaps for oceanography: cmocean](https://matplotlib.org/cmocean/#thermal)
-
-[colormap](https://github.com/BIDS/colormap)
