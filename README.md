@@ -1,5 +1,9 @@
 # **NeverlandBeats**
 
+## **Neonlights | 交互使用 树莓派、Python、Adapter、Scratch 与 NeoPixel（ws2812）**
+
+效果满意，过程勉强，具体见 neon_pixel notebook 及 [CodeLab 视频页](https://codelab.club/)。
+
 ## **使用 Python，Adapter EIM 插件和 Scratch 实时绘制音乐频谱**
 
 这部分目前有以下两个项目，原理都是用 python 对音频数据做实时分析，同时经 Adapter EIM 插件将分析结果发给 Scratch，再使用画笔功能动态绘制图形。可以直接利用 Python 代码在浏览器新窗口中自动打开对应的 Scratch 项目并运行，也可以手动打开 Scratch 项目后再运行 Python 代码。（Python 还有 Scratch 对应代码库内都有备份，但如果要自动打开并运行 Scratch 对应项目，需使用线上社区版，地址见下面链接）
