@@ -1,5 +1,66 @@
 # **NeverlandBeats**
 
+### **以编程为抓手触摸音乐的脉动；声波不止，代码不休。**
+
+
+![trackthebeat1](img/trackthebeat1.png)
+
+![trackthebeat2](img/trackthebeat2.png)
+
+![trackthebeat2](img/NN.png)
+
+
+## **We are already in the *Digital World*. Do you want to *go deeper*?**
+
+
+
+&emsp;
+
+#### **目录**
+
+**[1. 音乐节拍实时分析（Track the Beat on the Fly）](1.tracktheBeat.ipynb)** 
+
+**[2. 音乐频谱实时分析（Realtime Spectrogram）](2.realtimeSpectrogram_thermal.ipynb)**
+
+**[附录0：关于音频信号](appendix0_audioSignal.ipynb)**
+
+
+
+从左至右分别是：balance, deep, dense, diff； 
+
+![colormap示例](img/colormap1.png)
+
+从左至右分别是：ice, matter, rain, solar
+
+![colormap示例](img/colormap2.png)
+
+
+
+
+
+
+
+
+
+人、故事与情感
+
+---
+
+当我们拥有自己的空间场地，有投影、音响、灯光，甚至还有雷达等传感设备，我们距离一场演出（音乐或戏剧）还有多远？还差什么？
+
+当房间内的这些设备都是可以灵活编程控制的，当我们有强大的 Python、Scratch 以及连接、补充他们的 Adapter 等软件工具，如果去做，演出会不会更 Live？
+
+我只是把问题抛出来，凭一己之力无法回答，但常言道，***The Show Must Go On***。
+
+下面把在这个方向上做的一点工作整理汇总如下，各部分项目大致按复杂程度降序排列；链接指向的是本仓库内对应笔记本，如有 Demo 视频，则笔记本中先视频示例、再给出 Demo 代码、最后是单独的某具体功能代码。
+
+
+
+
+
+
+<!--
+
 ## **Neonlights | 交互使用 树莓派、Python、Adapter、Scratch 与 NeoPixel（ws2812）**
 
 效果满意，过程勉强，具体见 neon_pixel notebook 及 [CodeLab 视频页](https://codelab.club/)。
@@ -16,7 +77,7 @@
 
 ### **P1：Python 代码[在此](AA_madmomspectrogram.ipynb)，（自启动）Scratch 代码[在此](https://create.codelab.club/projects/9942/)，（手动启动）Scratch 代码[在此](https://create.codelab.club/projects/10022/)**
 
-<!--
+
 **待优化：**
 
 已解决，卡顿是因为中间发送数据时混杂了所有值为 0 的列表，原因在于没有 cleanup，使用 try 与 except 结构及时终止关闭 pyaudio stream 即可
@@ -28,7 +89,7 @@
 暂不考虑
 + 相比 P2 多了时间的维度，但只是 1 帧呈现 10 个时间点，然后靠屏幕刷新反映时间的变化，考虑是否将视觉效果做成图形自右向左流动呈现
 
--->
+
 
 ### **P1 色彩升级**
 
@@ -101,3 +162,5 @@ python 代码[在此](online_spectrogram_thermal.ipynb)，Scratch 代码[在此]
 [Beautiful colormaps for oceanography: cmocean](https://matplotlib.org/cmocean/#thermal)
 
 [colormap](https://github.com/BIDS/colormap)
+
+-->
