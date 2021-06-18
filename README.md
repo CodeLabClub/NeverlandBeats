@@ -22,10 +22,6 @@
 
 **[2. 音乐频谱实时分析（Realtime Spectrogram）](2.realtimeSpectrogram_thermal.ipynb)**
 
-**[附录0：关于音频信号](appendix0_audioSignal.ipynb)**
-
-
-
 从左至右分别是：balance, deep, dense, diff； 
 
 ![colormap示例](img/colormap1.png)
@@ -33,6 +29,13 @@
 从左至右分别是：ice, matter, rain, solar
 
 ![colormap示例](img/colormap2.png)
+
+
+**[附录0：关于音频信号](appendix0_audioSignal.ipynb)**
+
+
+
+
 
 
 
