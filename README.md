@@ -8,51 +8,32 @@
 ![trackthebeat2](img/trackthebeat2.png)
 
 
-
-## **We are already in the *Digital World*. Do you want to *go deeper*?**
-
-
-
 &emsp;
 
 #### **目录**
 
-**[1. 音乐节拍实时分析（Track the Beat on the Fly）](1.tracktheBeat.ipynb)** 
+**[1. 音乐节拍实时分析（Track the Beat on the Fly）](1M_tracktheBeat.ipynb)** 
 
-**[2. 音乐频谱实时分析（Realtime Spectrogram）](2.realtimeSpectrogram_thermal.ipynb)**
+**[2. 音乐频谱实时分析（Realtime Spectrogram）](2M_realtimeSpectrogram.ipynb)**
 
-从左至右分别是：balance, deep, dense, diff； 
+**[3. 霓虹灯光（Neon Lights）](3L_neonLights.ipynb)**
 
-![colormap示例](img/colormap1.png)
-
-从左至右分别是：ice, matter, rain, solar
-
-![colormap示例](img/colormap2.png)
+**[4. 灯光捕捉（Track the Light）](4L_tracktheLight.ipynb)**
 
 **[附录0：参考文档](appendix0_refs.ipynb)**
 
-<<<<<<< HEAD
 **[附录1：关于音频信号](appendix1_audioSignal.ipynb)**
-=======
-**[附录0：关于音频信号](appendix0_audioSignal.ipynb)**
 
+**[附录2：树莓派配置](appendix2_raspSettings.ipynb)**
 
-
-
-
-
-
-
-
-
+**[附录3：灯光配置](appendix3_lightSettings.ipynb)**
 
 
 
 
 <!--
 
-
-![trackthebeat2](img/NN.png)
+**[附录4：关于神经网络](appendix4_NN.ipynb)**
 
 人、故事与情感
 
@@ -65,13 +46,6 @@
 我只是把问题抛出来，凭一己之力无法回答，但常言道，***The Show Must Go On***。
 
 下面把在这个方向上做的一点工作整理汇总如下，各部分项目大致按复杂程度降序排列；链接指向的是本仓库内对应笔记本，如有 Demo 视频，则笔记本中先视频示例、再给出 Demo 代码、最后是单独的某具体功能代码。
-
->>>>>>> 8da30160a29c5c37e4e8b204c57e42c76cf6c7e6
-
-
-
-
-
 
 ## **Neonlights | 交互使用 树莓派、Python、Adapter、Scratch 与 NeoPixel（ws2812）**
 
