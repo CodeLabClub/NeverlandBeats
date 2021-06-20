@@ -7,7 +7,6 @@
 
 ![trackthebeat2](img/trackthebeat2.png)
 
-![trackthebeat2](img/NN.png)
 
 
 ## **We are already in the *Digital World*. Do you want to *go deeper*?**
@@ -51,6 +50,10 @@
 
 
 <!--
+
+
+![trackthebeat2](img/NN.png)
+
 人、故事与情感
 
 ---
