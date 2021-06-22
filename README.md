@@ -2,6 +2,10 @@
 
 ### **以编程为抓手触摸音乐的脉动；声波不止，代码不休。**
 
+&emsp;
+
+
+![NBKeywords](img/NBKeywords.png)
 
 ![trackthebeat1](img/trackthebeat1.png)
 
@@ -10,7 +14,7 @@
 
 &emsp;
 
-#### **目录**
+### **目录**
 
 **[1. 音乐节拍实时分析（Track the Beat on the Fly）](1M_tracktheBeat.ipynb)** 
 
@@ -27,6 +31,9 @@
 **[附录2：树莓派配置](appendix2_raspSettings.ipynb)**
 
 **[附录3：灯光配置](appendix3_lightSettings.ipynb)**
+
+**[附录4：关于神经网络（Neural Network）](appendix4_NN.ipynb)**
+
 
 
 

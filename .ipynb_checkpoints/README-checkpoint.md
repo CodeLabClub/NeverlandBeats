@@ -2,6 +2,10 @@
 
 ### **以编程为抓手触摸音乐的脉动；声波不止，代码不休。**
 
+&emsp;
+
+
+![NBKeywords](img/NBKeywords.png)
 
 ![trackthebeat1](img/trackthebeat1.png)
 
@@ -10,7 +14,7 @@
 
 &emsp;
 
-#### **目录**
+### **目录**
 
 **[1. 音乐节拍实时分析（Track the Beat on the Fly）](1M_tracktheBeat.ipynb)** 
 
@@ -18,7 +22,7 @@
 
 **[3. 霓虹灯光（Neon Lights）](3L_neonLights.ipynb)**
 
-**[4. 灯光捕捉（Track the light）](4L_tracktheLight.ipynb)**
+**[4. 灯光捕捉（Track the Light）](4L_tracktheLight.ipynb)**
 
 **[附录0：参考文档](appendix0_refs.ipynb)**
 
@@ -28,11 +32,15 @@
 
 **[附录3：灯光配置](appendix3_lightSettings.ipynb)**
 
-**[附录4：关于神经网络](appendix4_NN.ipynb)**
+**[附录4：神经网络（Neural Network）](appendix4_NN.ipynb)**
+
+
+
 
 
 <!--
 
+**[附录4：关于神经网络](appendix4_NN.ipynb)**
 
 人、故事与情感
 
