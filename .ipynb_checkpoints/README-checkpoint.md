@@ -32,13 +32,17 @@
 
 **[附录3：灯光配置](appendix3_lightSettings.ipynb)**
 
-**[附录4：神经网络（Neural Network）](appendix4_NN.ipynb)**
+**[附录4：关于神经网络（Neural Network）](appendix4_NN.ipynb)**
 
 
 
 
 
 <!--
+
+数字化的概念很重要
+
+音乐在计算机中如何以一维时间序列数值列表/数组的形式存在；图像如何以二维数组的形式存在；脑影像数据则是三维 voxel 形式存在；计算机处理分析这些数据的前提是他们都先以适合的方式被数字化了，以数字的形式存在，对这一点的理解与习惯非常重要。
 
 **[附录4：关于神经网络](appendix4_NN.ipynb)**
 
