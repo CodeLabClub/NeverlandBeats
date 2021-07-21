@@ -1,16 +1,37 @@
 # **NeverlandBeats**
 
-### **以编程为抓手触摸音乐的脉动；声波不止，代码不休。**
+#### **以编程为抓手触摸音乐的脉动；声波不止，代码不休。**
+
+---
+
+最初这是一个立志要 **实时捕捉音乐节拍** 的代码仓库，从跟随 **音乐信息提取** **[线上教程](https://musicinformationretrieval.com/index.html)** 使用 **[librosa](https://librosa.org/)** 库分析处理数字音乐开始入手，早期多数时间都花在 **傅立叶变换** 的具体实现方法以及对音频流数据的实时提取分析上（主要依靠 **[pyaudio](https://people.csail.mit.edu/hubert/pyaudio/docs/)** 库）。过程中，一方面受惠于网友们的精彩讲解，另一方面，**Jupyter Lab** 交互式的 python 编程环境与代码，提供了可以逐步精细拆解与实验验证转换过程的可感可操作的材料工具，对于概念理解与技术实现都帮助很大。
+
+后来在一篇教程中偶遇 [**Madmom**](https://github.com/CPJKU/madmom) 库，这也是一个音乐分析相关的 python 库，侧重的就是节拍分析。因为它可靠的表现以及清晰简便的使用方式，后面的工作全都重度基于它。具体地，Madmom 对本仓库代码的影响主要涉及两个方面：首先自然是实时节拍分析功能的实现，但为了知其然并知其所以然，在理解和使用代码的基础上，对音频数字信号处理的认识近一步加深，更重要的是，在 Madmom 的指引下，进入了 **深度学习** 领域（参看 `paper` 文件夹下的文章，如 [**Deep Learning for MIR Tutorial**](paper/DLforMIRTutorial.pdf)），也因为这部分技术的深度，对应内容最终在仓库中占据了较大比重，从原本的附录位置移动至正文。
+
+除 Python 与 Madmom 库外，还用到 **[CodeLab Scratch](https://create.codelab.club/)** 与 [**CodeLab Adapter**](https://adapter.codelab.club/get_start/gs_install/)。其实整个项目最初应该算作是从 Scratch 出发的，通过借用 Python
+的数据分析能力，来增强 Scratch 的表现力，在本项目中具体体现在 python 对音乐的分析上，之后通过 Adapter 将数据分析结果传送给 Scratch。相比 python 生态中的典型画图工具如 matplotlib，Scratch 显然有更强的艺术表现力，它天然就被设计用来制作动画、游戏、音乐项目，又因为是为孩子设计的，编程环境与过程也亲切友好很多。除音乐外，Scratch 是项目温度与情感的另一大来源。
+
+最后一种元素是灯光，从智能家居灯具开始尝试，最终停在 ws281x 灯带与舞台用灯光上，他们都可以稳定地高频响应音乐节拍变化。有了色彩与音乐，空间中就能快速营造出基础气氛。
+
+如下图所示，以上提到了很多关键词，也确实觉得触碰到多种可能性，但各个方向上的尝试都还浅显。重要的是，看到一种可能，融合理性的强硬与情感的温湿的可能，心中有火脑中有冰，够烫又够硬！
 
 &emsp;
 
+### **关键词**
 
 ![NBKeywords](img/NBKeywords.png)
 
+&emsp;
+
+### **内容概览**
+
 ![trackthebeat1](img/trackthebeat1.png)
 
-![trackthebeat2](img/trackthebeat2.png)
+&emsp;
 
+### **节拍分析(基于 Madmom)**
+
+![trackthebeat2](img/trackthebeat2.png)
 
 &emsp;
 
@@ -24,15 +45,21 @@
 
 **[4. 灯光捕捉（Track the Light）](4L_tracktheLight.ipynb)**
 
-**[附录0：参考文档](appendix0_refs.ipynb)**
+**[5. 训练长短时记忆循环神经网络预测节拍(Predict the Beats with LSTM)](5M_BiLSTM_Madmom.ipynb)**
 
-**[附录1：关于音频信号](appendix1_audioSignal.ipynb)**
+**[附录 0. 参考文档](appendix0_refs.ipynb)**
 
-**[附录2：树莓派配置](appendix2_raspSettings.ipynb)**
+**[附录 1. 关于音频信号](appendix1_audioSignal.ipynb)**
 
-**[附录3：灯光配置](appendix3_lightSettings.ipynb)**
+**[附录 2. 树莓派配置](appendix2_raspSettings.ipynb)**
 
-**[附录4：关于神经网络（Neural Network）](appendix4_NN.ipynb)**
+**[附录 3. 灯光配置](appendix3_lightSettings.ipynb)**
+
+**[附录 4. 关于神经网络 1 (Neural Networks 1)](appendix4_NN1.ipynb)**
+
+**[附录 4. 关于神经网络 2 (Neural Networks 2)](appendix4_NN2.ipynb)**
+
+**[附录 5. 关于循环神经网络（Recurrent Neural Networks）](appendix5_RNN.ipynb)**
 
 
 
@@ -40,11 +67,18 @@
 
 <!--
 
+1. Instinction 
+
+2. Concise and accurate understanding (math format)
+
+3. Code (How exactly to do it)
+
+
 数字化的概念很重要
 
 音乐在计算机中如何以一维时间序列数值列表/数组的形式存在；图像如何以二维数组的形式存在；脑影像数据则是三维 voxel 形式存在；计算机处理分析这些数据的前提是他们都先以适合的方式被数字化了，以数字的形式存在，对这一点的理解与习惯非常重要。
 
-**[附录4：关于神经网络](appendix4_NN.ipynb)**
+
 
 人、故事与情感
 
