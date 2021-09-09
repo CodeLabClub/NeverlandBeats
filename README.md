@@ -61,6 +61,8 @@
 
 **[附录 5. 关于循环神经网络（Recurrent Neural Networks）](appendix5_RNN.ipynb)**
 
+**[附录 6. 关于马尔科夫过程（Markov Processes）](appendix6_HMM.ipynb)**
+
 
 
 
